@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\css\VisitingCss\" />
+    <Folder Include="wwwroot\js\VisitingJs\" />
   </ItemGroup>
 
 </Project>
