@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WebHard.Models
+{
+    public class VisitingModel
+    {
+        public string Page { get; set; }
+    }
+}

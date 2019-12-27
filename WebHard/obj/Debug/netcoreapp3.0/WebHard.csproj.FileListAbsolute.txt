@@ -124,3 +124,5 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.MvcApplicatio
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.Views.pdb
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.dll
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.pdb
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutVisiting.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Home\nonindexx.cshtml.g.cs
