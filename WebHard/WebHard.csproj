@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Content\images\fonts\**" />
     <Compile Remove="wwwroot\Content\visitingImg\**" />
+    <Content Remove="wwwroot\Content\images\fonts\**" />
     <Content Remove="wwwroot\Content\visitingImg\**" />
+    <EmbeddedResource Remove="wwwroot\Content\images\fonts\**" />
     <EmbeddedResource Remove="wwwroot\Content\visitingImg\**" />
+    <None Remove="wwwroot\Content\images\fonts\**" />
     <None Remove="wwwroot\Content\visitingImg\**" />
   </ItemGroup>
 
@@ -22,7 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Content\images\fonts\" />
     <Folder Include="wwwroot\css\VisitingCss\" />
   </ItemGroup>
 
