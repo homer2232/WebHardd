@@ -2,7 +2,6 @@ D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\appsettings.Developme
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\appsettings.json
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\WebHard.exe
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.csprojAssemblyReference.cache
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\staticwebassets\WebHard.StaticWebAssets.Manifest.cache
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\staticwebassets\WebHard.StaticWebAssets.xml
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.RazorAssemblyInfo.cache

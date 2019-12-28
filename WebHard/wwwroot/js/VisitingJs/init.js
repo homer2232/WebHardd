@@ -3,12 +3,12 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			global:		{ range: '*', url: 'css/test2css/style.css', containers: 1400, grid: { gutters: 50 } },
-			wide:		{ range: '-1680', url: 'css/test2css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
-            normal: { range: '-1280', url: 'css/test2css/style-normal.css', containers: 960, lockViewport: true },
-            narrow: { range: '-980', url: 'css/test2css/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
-            narrower: { range: '-840', url: 'css/test2css/style-narrower.css', grid: { gutters: 20, collapse: 1 } },
-            mobile: { range: '-640', url: 'css/test2css/style-mobile.css', grid: { gutters: 15, collapse: 2 } }
+			global:		{ range: '*', url: 'css/VisitingCss/style.css', containers: 1400, grid: { gutters: 50 } },
+            wide:       { range: '-1680', url: 'css/VisitingCss/style-wide.css', containers: 1200, grid: { gutters: 40 } },
+            normal:     { range: '-1280', url: 'css/VisitingCss/style-normal.css', containers: 960, lockViewport: true },
+            narrow:     { range: '-980', url: 'css/VisitingCss/style-narrow.css', containers: '95%', grid: { gutters: 30 } },
+            narrower:   { range: '-840', url: 'css/VisitingCss/style-narrower.css', grid: { gutters: 20, collapse: 1 } },
+            mobile:     { range: '-640', url: 'css/VisitingCss/style-mobile.css', grid: { gutters: 15, collapse: 2 } }
 		}
 	}, {
 		layers: {
