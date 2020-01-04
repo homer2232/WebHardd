@@ -15,8 +15,8 @@ namespace WebHard.Controllers
             return View();
         }
 
-        // GET: Cooperative/Details/5
-        public ActionResult Details(int id)
+       
+        public ActionResult Cooperative()
         {
             return View();
         }

@@ -126,4 +126,5 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.pdb
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutVisiting.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Home\nonindexx.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.csprojAssemblyReference.cache
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\Cooperative.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutCooperative.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\Index.cshtml.g.cs
