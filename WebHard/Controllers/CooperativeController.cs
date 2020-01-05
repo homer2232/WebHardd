@@ -9,14 +9,14 @@ namespace WebHard.Controllers
 {
     public class CooperativeController : Controller
     {
-        // GET: Cooperative
+       
         public ActionResult Index()
         {
             return View();
         }
 
        
-        public ActionResult Cooperative()
+        public ActionResult Manpower()
         {
             return View();
         }

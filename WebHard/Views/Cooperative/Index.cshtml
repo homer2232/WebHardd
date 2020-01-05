@@ -1,10 +1,10 @@
-﻿@model CooperativeModel 
+﻿@model CooperativeModel
 
 @{
-    Layout = "_LayoutCooperative"; 
+    Layout = "_LayoutCooperative";
 }
 
-<!--top nav start here-->
+
 <div class="mother-grid">
     <div class="container">
         <div class="temp-padd">
@@ -37,16 +37,15 @@
                 <div class="navg">
                     <span class="menu"> <img src="~/Content/images/cooperativeImg/icon.png" alt="" /></span>
                     <ul class="res">
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a>@Html.ActionLink("Главная страница", "Index", "Cooperative")</a></li>
+                        <li><a>@Html.ActionLink("Кадровый раздел", "Manpower", "Cooperative")</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="project.html">Projects</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
-                    <script>
-    $("span.menu").click(function () {
+                    <script type="text/javascript">
+                        $("span.menu").click(function () {
                             $("ul.res").slideToggle("slow", function () {
-                                // Animation complete.
                             });
                         });</script>
                 </div>
@@ -56,8 +55,6 @@
                 </div>
                 <div class="clearfix"> </div>
             </div>
-            <!--header end here-->
-            <!--banner start here-->
             <div class="banner">
                 <img src="~/Content/images/cooperativeImg/logo.png" alt="" />
                 <h3>Corem ipsum</h3>
@@ -66,8 +63,6 @@
                     <a href="#">More info</a>
                 </div>
             </div>
-            <!--banner end here-->
-            <!--nunc dig start here-->
             <div class="nuncdig">
                 <div class="nuncdig-main">
                     <div class="nunc-top">
@@ -109,13 +104,9 @@
                     </div>
                 </div>
             </div>
-            <!--nunc dig end here-->
-            <!--molli start here-->
             <script src="@Url.Content("~/js/CooperativeJs/responsiveslides.min.js")" type="text/javascript"></script>
-            <script>
-    // You can also use "$(window).load(function() {"
-                $(function () {
-                    // Slideshow 4
+            <script type="text/javascript">
+                (function () {
                     $("#slider4").responsiveSlides({
                         auto: true,
                         pager: true,
@@ -131,10 +122,8 @@
                     });
 
                 });</script>
-            <!----//End-slider-script---->
-            <!-- Slideshow 4 -->
             <div id="top" class="callbacks_container">
-                <div class="molli">
+                @*<div class="molli">
                     <div class="molli-top">
                         <span class="line-x"> </span>
                         <span class="line-y"> </span>
@@ -221,12 +210,10 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div>*@
                 <div class="clearfix"> </div>
             </div>
             <div class="clearfix"> </div>
-            <!--molli end here-->
-            <!--information-grid start here-->
             <div class="info-grid">
                 <div class="info-grid-main">
                     <div class="col-md-6 info-grid-left">
@@ -330,8 +317,6 @@
                 </div>
             </div>
         </div>
-        <!--information grid end here-->
-        <!--footer start here-->
         <div class="footer">
             <div class="footer-main">
                 <div class="footer-top">
@@ -362,4 +347,3 @@
         </div>
     </div>
 </div>
-<!--footer end here-->
