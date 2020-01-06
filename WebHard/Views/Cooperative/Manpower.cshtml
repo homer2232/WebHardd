@@ -23,16 +23,12 @@
                 </div>
                 <div class="clearfix"> </div>
             </div>
-            <!--top nav end here-->
-            <!--title start here-->
             <div class="title-main">
                 <a href="index.html"><h1>Tender</h1></a>
             </div>
-            <!--title end here-->
-            <!--header start here-->
             <div class="header">
                 <div class="navg">
-                    <span class="menu"> <img src="images/icon.png" alt="" /></span>
+                    <span class="menu"> <img src="~/Content/images/cooperativeImg/icon.png" alt="" /></span>
                     <ul class="res">
                         <li><a>@Html.ActionLink("Главная страница", "Index", "Cooperative")</a></li>
                         <li><a class="active">@Html.ActionLink("Кадровый раздел", "Manpower", "Cooperative")</a></li>
@@ -40,34 +36,19 @@
                         <li><a href="project.html">Projects</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
-                    <script>
-                        $("span.menu").click(function () {
-                            $("ul.res").slideToggle("slow", function () {
-                                // Animation complete.
-                            });
-                        });
-                    </script>
                 </div>
+                <script type="text/javascript">
+                    $("span.menu").click(function () {
+                        $("ul.res").slideToggle("slow", function () {
+                        });
+                    });</script>
                 <div class="search">
                     <input type="text" value="Site search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Site search';}" />
                     <input type="submit" value="" />
                 </div>
                 <div class="clearfix"> </div>
             </div>
-            <!--header end here-->
-            <!--project start here-->
-            @*<div class="project">
-                <img src="images/hand.jpg" alt="" />
-                <h3>Ooops! page Not Open</h3>
-                <p>Nothing is Found here</p>
-                <h4>404</h4>
-                <div class="proj-bwn">
-                    <a href="index.html">Go Back</a>
-                </div>
-            </div>*@
         </div>
-        <!--project end here-->
-        <!--footer start here-->
         <div class="footer">
             <div class="footer-main">
                 <div class="footer-top">
@@ -98,4 +79,3 @@
         </div>
     </div>
 </div>
-<!--footer end here-->
