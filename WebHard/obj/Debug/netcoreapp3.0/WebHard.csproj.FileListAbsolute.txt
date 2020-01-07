@@ -119,7 +119,6 @@ D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\WebHard.dll
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\WebHard.pdb
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\WebHard.Views.dll
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\WebHard.Views.pdb
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.MvcApplicationPartsAssemblyInfo.cache
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.Views.pdb
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.dll
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.pdb
