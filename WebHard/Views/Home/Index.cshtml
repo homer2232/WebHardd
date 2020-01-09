@@ -15,11 +15,31 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li class="active"><a href="index.html">Homepage</a></li>
-                    <li><a>@Html.ActionLink("Кооперативный сайт", "Index", "Cooperative")</a></li>
-                    <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                    <li><a href="no-sidebar.html">No Sidebar</a></li>
-                </ul>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li style="padding: 0 0 0 0;">
+                            @User.Identity.Name
+                        </li>
+                        <li style="padding: 0 0 0 0;">
+                            <form method="post" asp-controller="Account" asp-action="Logout">
+                                <input style="font-size:80%;" type="submit" value="Выход" />
+                            </form>
+                        </li>
+                            }
+                            else
+                            {
+                        <li>
+                            <a asp-controller="Account" asp-action="Login">Вход</a>
+                            <a asp-controller="Account" asp-action="Register">Регистрация</a>
+                        </li>
+                     }
+
+                        <li class="active"><a href="index.html">Homepage</a></li>
+                        <li><a>@Html.ActionLink("Кооперативный сайт", "Index", "Cooperative")</a></li>
+                        <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                        <li><a href="no-sidebar.html">No Sidebar</a></li>
+                    </ul>
             </nav>
         </div>
 
