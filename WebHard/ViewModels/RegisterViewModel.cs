@@ -9,6 +9,7 @@ namespace WebHard.ViewModels
     public class RegisterViewModel
     {
         [Required(ErrorMessage = "{0} обязательно для заполнения.")]
+        [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
 

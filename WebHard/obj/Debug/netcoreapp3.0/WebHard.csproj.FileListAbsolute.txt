@@ -78,7 +78,6 @@ D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Core.dll
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.MvcApplicationPartsAssemblyInfo.cache
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\libman.json
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
@@ -159,3 +158,7 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Users\Ind
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Users\Create.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Users\Edit.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Users\ChangePassword.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\Create.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\Edit.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\Index.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\UserList.cshtml.g.cs
