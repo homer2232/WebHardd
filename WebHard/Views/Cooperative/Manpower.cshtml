@@ -27,27 +27,15 @@
                 <a href="index.html"><h1>Tender</h1></a>
             </div>
             <div class="header">
-                <div class="navg">
-                    <span class="menu"> <img src="~/Content/images/cooperativeImg/icon.png" alt="" /></span>
-                    <ul class="res">
-                        <li><a>@Html.ActionLink("Главная страница", "Index", "Cooperative")</a></li>
-                        <li><a class="active">@Html.ActionLink("Кадровый раздел", "Manpower", "Cooperative")</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="project.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <script type="text/javascript">
-                    $("span.menu").click(function () {
-                        $("ul.res").slideToggle("slow", function () {
-                        });
-                    });</script>
-                <div class="search">
-                    <input type="text" value="Site search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Site search';}" />
-                    <input type="submit" value="" />
-                </div>
+                @Html.Partial("~/Views/Menu/CooperativeMenu.cshtml")
+                @*<div class="search">
+            <input type="text" value="Site search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Site search';}" />
+            <input type="submit" value="" />
+        </div>*@
                 <div class="clearfix"> </div>
             </div>
+
+            выавыавыавыавыы
         </div>
         <div class="footer">
             <div class="footer-main">

@@ -162,3 +162,10 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\Cre
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\Edit.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\Index.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Roles\UserList.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\MailKit.dll
+D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\MimeKit.dll
+D:\reports\WebHard\WebHard\WebHard\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.MvcApplicationPartsAssemblyInfo.cache
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Menu\CooperativeMenu.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\ForNewEmployee.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\DigitalLibrary.cshtml.g.cs
