@@ -35,7 +35,6 @@ namespace WebHard
                 opts.User.RequireUniqueEmail = true;
             })
          .AddEntityFrameworkStores<ApplicationContext>();
-
             services.AddControllersWithViews();
         }
 
