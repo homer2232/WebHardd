@@ -10,11 +10,11 @@ using WebHard.Models;
 
 namespace WebHard.Controllers
 {
-    public class HomeController : Controller
+    public class RuralHolidayController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<RuralHolidayController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public RuralHolidayController(ILogger<RuralHolidayController> logger)
         {
             _logger = logger;
         }
@@ -24,10 +24,6 @@ namespace WebHard.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

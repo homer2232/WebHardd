@@ -11,8 +11,6 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.AssemblyInfo.
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.TagHelpers.input.cache
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.TagHelpers.output.cache
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.RazorCoreGenerate.cache
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -50,7 +48,6 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.Views.pdb
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.dll
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.pdb
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutVisiting.cshtml.g.cs
-D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Home\nonindexx.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutCooperative.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\Index.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\Manpower.cshtml.g.cs
@@ -169,3 +166,4 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\WebHard.MvcApplicatio
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Menu\CooperativeMenu.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\ForNewEmployee.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\Cooperative\DigitalLibrary.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\RuralHoliday\Index.cshtml.g.cs
