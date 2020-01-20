@@ -4,192 +4,189 @@
     Layout = "_LayoutVisiting";
 }
 
+        <div class="wrapper style1">
 
+            <div id="header" class="skel-panels-fixed">
+                <div id="logo">
+                    <h1><a href="index.html">Индекс</a></h1>
+                    <span class="tag">Виктор</span>
+                </div>
+                <nav id="nav">
+                    <ul>
 
-    <div class="wrapper style1">
-
-        <div id="header" class="skel-panels-fixed">
-            <div id="logo">
-                <h1><a href="index.html">Индекс</a></h1>
-                <span class="tag">Виктор</span>
-            </div>
-            <nav id="nav">
-                <ul>
-
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <li style="padding: 0 0 0 0;">
-                            @User.Identity.Name
-                        </li>
-                        <li style="padding: 0 0 0 0;">
-                            <form method="post" asp-controller="Account" asp-action="Logout">
-                                <input style="font-size:80%;" type="submit" value="Выход" />
-                            </form>
-                        </li>
-                            }
-                            else
-                            {
-                        <li>
-                            <a asp-controller="Account" asp-action="Login">Вход</a>
-                            <a asp-controller="Account" asp-action="Register">Регистрация</a>
-                        </li>
-                     }
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li style="padding: 0 0 0 0;">
+                                @User.Identity.Name
+                            </li>
+                            <li style="padding: 0 0 0 0;">
+                                <form method="post" asp-controller="Account" asp-action="Logout">
+                                    <input style="font-size:80%;" type="submit" value="Выход" />
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a asp-controller="Account" asp-action="Login">Вход</a>
+                                <a asp-controller="Account" asp-action="Register">Регистрация</a>
+                            </li>
+                        }
 
                         <li class="active"><a href="index.html">Homepage</a></li>
                         <li><a>@Html.ActionLink("Кооперативный сайт", "Index", "Cooperative")</a></li>
                         <li><a href="right-sidebar.html">Правый сайтбар</a></li>
                         <li><a href="no-sidebar.html">Сайтбар</a></li>
                     </ul>
-            </nav>
-        </div>
-
-        <!-- Banner -->
-        <div id="banner" class="container">
-            <section>
-                <p>Это сайт, <strong>Сельский туризм</strong></p>
-                <a href="#" class="button medium">Просмотреть</a>
-            </section>
-        </div>
-
-        <!-- Extra -->
-        <div id="extra">
-            <div class="container">
-                <div class="row no-collapse-1">
-                    <section class="4u">
-                        <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic01.jpg" alt=""></a>
-                        <div class="box">
-                            <p>Текст</p>
-                            <a class="button" asp-controller="RuralHoliday" asp-action="RuralHolidayOne">Просмотреть</a>
-                        </div>
-                    </section>
-                    <section class="4u">
-                        <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic02.jpg" alt=""></a>
-                        <div class="box">
-                            <p>Текст</p>
-                            <a asp-controller="RuralHoliday" asp-action="RuralHolidayTwo" class="button">Просмотреть</a>
-                        </div>
-                    </section>
-                    <section class="4u">
-                        <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic03.jpg" alt=""></a>
-                        <div class="box">
-                            <p>Текст</p>
-                            <a asp-controller="RuralHoliday" asp-action="RuralHolidayThree" class="button">Просмотреть</a>
-                        </div>
-                    </section>
-                </div>
-                <div class="row no-collapse-1">
-                    <section class="4u">
-                        <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic01.jpg" alt=""></a>
-                        <div class="box">
-                            <p>Текст</p>
-                            <a asp-controller="RuralHoliday" asp-action="RuralHolidayFour" class="button">Просмотреть</a>
-                        </div>
-                    </section>
-                    <section class="4u">
-                        <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic02.jpg" alt=""></a>
-                        <div class="box">
-                            <p>Текст</p>
-                            <a asp-controller="RuralHoliday" asp-action="RuralHolidayFive" class="button">Просмотреть</a>
-                        </div>
-                    </section>
-                    <section class="4u">
-                        <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic03.jpg" alt=""></a>
-                        <div class="box">
-                            <p>Текст</p>
-                            <a asp-controller="RuralHoliday" asp-action="RuralHolidaySix" class="button">Просмотреть</a>
-                        </div>
-                    </section>
-                </div>
+                </nav>
             </div>
-        </div>
 
-        <div id="main">
-            <div class="container">
-                <div class="row">
+            <!-- Banner -->
+            <div id="banner" class="container">
+                <section>
+                    <p>Это сайт, <strong>Сельский туризм</strong></p>
+                    <a href="#" class="button medium">Просмотреть</a>
+                </section>
+            </div>
 
-                    <!-- Content -->
-                    <div class="6u">
-                        <section>
-                            <ul class="style">
-                                <li class="fa fa-wrench">
-                                    <h3>Инфо</h3>
-                                    <span>Текст</span>
-                                </li>
-                                <li class="fa fa-leaf">
-                                    <h3>Адрес</h3>
-                                    <span>Текст</span>
-                                </li>
-                            </ul>
+            <!-- Extra -->
+            <div id="extra">
+                <div class="container">
+                    <div class="row no-collapse-1">
+                        <section class="4u">
+                            <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic01.jpg" alt=""></a>
+                            <div class="box">
+                                <p>Текст</p>
+                                <a class="button" asp-controller="RuralHoliday" asp-action="RuralHolidayOne">Просмотреть</a>
+                            </div>
+                        </section>
+                        <section class="4u">
+                            <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic02.jpg" alt=""></a>
+                            <div class="box">
+                                <p>Текст</p>
+                                <a asp-controller="RuralHoliday" asp-action="RuralHolidayTwo" class="button">Просмотреть</a>
+                            </div>
+                        </section>
+                        <section class="4u">
+                            <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic03.jpg" alt=""></a>
+                            <div class="box">
+                                <p>Текст</p>
+                                <a asp-controller="RuralHoliday" asp-action="RuralHolidayThree" class="button">Просмотреть</a>
+                            </div>
                         </section>
                     </div>
-                    <div class="6u">
-                        <section>
-                            <ul class="style">
-                                <li class="fa fa-cogs">
-                                    <h3>Инфо</h3>
-                                    <span>Текст</span>
-                                </li>
-                                <li class="fa fa-road">
-                                    <h3>Инфо</h3>
-                                    <span>Текст</span>
-                                </li>
-                            </ul>
+                    <div class="row no-collapse-1">
+                        <section class="4u">
+                            <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic01.jpg" alt=""></a>
+                            <div class="box">
+                                <p>Текст</p>
+                                <a asp-controller="RuralHoliday" asp-action="RuralHolidayFour" class="button">Просмотреть</a>
+                            </div>
+                        </section>
+                        <section class="4u">
+                            <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic02.jpg" alt=""></a>
+                            <div class="box">
+                                <p>Текст</p>
+                                <a asp-controller="RuralHoliday" asp-action="RuralHolidayFive" class="button">Просмотреть</a>
+                            </div>
+                        </section>
+                        <section class="4u">
+                            <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic03.jpg" alt=""></a>
+                            <div class="box">
+                                <p>Текст</p>
+                                <a asp-controller="RuralHoliday" asp-action="RuralHolidaySix" class="button">Просмотреть</a>
+                            </div>
                         </section>
                     </div>
                 </div>
             </div>
+
+            <div id="main">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- Content -->
+                        <div class="6u">
+                            <section>
+                                <ul class="style">
+                                    <li class="fa fa-wrench">
+                                        <h3>Инфо</h3>
+                                        <span>Текст</span>
+                                    </li>
+                                    <li class="fa fa-leaf">
+                                        <h3>Адрес</h3>
+                                        <span>Текст</span>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="6u">
+                            <section>
+                                <ul class="style">
+                                    <li class="fa fa-cogs">
+                                        <h3>Инфо</h3>
+                                        <span>Текст</span>
+                                    </li>
+                                    <li class="fa fa-road">
+                                        <h3>Инфо</h3>
+                                        <span>Текст</span>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-    </div>
-
-    <!-- Footer -->
-    <div id="footer" class="wrapper style2">
-        <div class="container">
-            <section>
-                <header class="major">
-                    <h2>Напишите нам письмо</h2>
-                    <span class="byline">Мы ответим Вам на любой вопрос и зарегистрируем!</span>
-                </header>
-                <form method="post" action="#">
-                    <div class="row half">
-                        <div class="12u">
-                            <input class="text" type="text" name="name" id="name" placeholder="Name" />
+        <!-- Footer -->
+        <div id="footer" class="wrapper style2">
+            <div class="container">
+                <section>
+                    <header class="major">
+                        <h2>Напишите нам письмо</h2>
+                        <span class="byline">Мы ответим Вам на любой вопрос и зарегистрируем!</span>
+                    </header>
+                    <form method="post" action="#">
+                        <div class="row half">
+                            <div class="12u">
+                                <input class="text" type="text" name="name" id="name" placeholder="Name" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="row half">
-                        <div class="12u">
-                            <input class="text" type="text" name="email" id="email" placeholder="Email" />
+                        <div class="row half">
+                            <div class="12u">
+                                <input class="text" type="text" name="email" id="email" placeholder="Email" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="row half">
-                        <div class="12u">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <div class="row half">
+                            <div class="12u">
+                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row half">
-                        <div class="12u">
-                            <ul class="actions">
-                                <li>
-                                    <input type="submit" value="Отправить сообщение" class="button alt" />
-                                </li>
-                            </ul>
+                        <div class="row half">
+                            <div class="12u">
+                                <ul class="actions">
+                                    <li>
+                                        <input type="submit" value="Отправить сообщение" class="button alt" />
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </form>
-            </section>
-        </div>
-    </div>
-
-    <div id="copyright">
-        <div class="container">
-            <div class="copyright">
-                <p>Подпишись на нас</p>
-                <ul class="icons">
-                    <li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-                    <li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-                    <li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-                </ul>
+                    </form>
+                </section>
             </div>
         </div>
-    </div>
 
+        <div id="copyright">
+            <div class="container">
+                <div class="copyright">
+                    <p>Подпишись на нас</p>
+                    <ul class="icons">
+                        <li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+                        <li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+                        <li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
