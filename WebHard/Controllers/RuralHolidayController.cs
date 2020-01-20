@@ -18,8 +18,32 @@ namespace WebHard.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult RuralHolidayOne() 
+        {
+            return View();
+        }
+        public IActionResult RuralHolidayTwo()
+        {
+            return View();
+        }
+        public IActionResult RuralHolidayThree()
+        {
+            return View();
+        }
+        public IActionResult RuralHolidayFour()
+        {
+            return View();
+        }
+        public IActionResult RuralHolidayFive()
+        {
+            return View();
+        }
+        public IActionResult RuralHolidaySix()
         {
             return View();
         }
