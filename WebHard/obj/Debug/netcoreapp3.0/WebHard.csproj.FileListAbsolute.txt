@@ -173,3 +173,4 @@ D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\RuralHoli
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\RuralHoliday\RuralHolidayFour.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\RuralHoliday\RuralHolidayFive.cshtml.g.cs
 D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\RuralHoliday\RuralHolidaySix.cshtml.g.cs
+D:\reports\WebHard\WebHard\WebHard\obj\Debug\netcoreapp3.0\Razor\Views\RuralHoliday\InformationOfCompany.cshtml.g.cs
