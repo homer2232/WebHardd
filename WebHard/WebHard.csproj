@@ -29,7 +29,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Content\images\visitingImg\blacksmith\" />
-    <Folder Include="wwwroot\Content\images\visitingImg\bath\" />
     <Folder Include="wwwroot\Content\images\visitingImg\museum\" />
     <Folder Include="wwwroot\Content\images\visitingImg\zoo\" />
     <Folder Include="wwwroot\Content\images\visitingImg\holidays\" />

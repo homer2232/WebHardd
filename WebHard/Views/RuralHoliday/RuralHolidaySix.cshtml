@@ -7,8 +7,6 @@
 <link href="@Url.Content("~/css/SlideShowCss.css")" rel="stylesheet" type="text/css" />
 
 <div class="wrapper style1">
-
-    <!-- Header -->
     <div id="header" class="skel-panels-fixed">
         <div id="logo">
             <h1><a href="index.html">Phase Shift</a></h1>
@@ -20,8 +18,6 @@
             </ul>
         </nav>
     </div>
-    <!-- Header -->
-    <!-- Page -->
     <div id="page" class="container">
         <div class="row">
 
@@ -52,7 +48,7 @@
                 </section>
                 @*<section>
                         <header class="major">
-                            <h2>Mauris vulputate</h2>
+                            <h2></h2>
                         </header>
                         <ul class="default">
                             <li><a href="#"></a></li>
@@ -66,7 +62,6 @@
                     </section>*@
             </div>
 
-            <!-- Content -->
             <div id="content" class="8u skel-cell-important">
 
                 <section>
@@ -106,12 +101,10 @@
                             <img src="~/Content/images/visitingImg/zoo/z7.jpg" style="width:100%">
                         </div>
 
-                        <!-- Next and previous buttons -->
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
                     <br>
-                    <!-- The dots/circles -->
                     <div style="text-align:center">
                         <span class="dot" onclick="currentSlide(1)"></span>
                         <span class="dot" onclick="currentSlide(2)"></span>
@@ -127,87 +120,9 @@
 
         </div>
     </div>
-    <!-- /Page -->
-    <!-- Main -->
-    <div id="main">
-        <div class="container">
-            <div class="row">
-
-                <!-- Content -->
-                <div class="6u">
-                    <section>
-                        <ul class="style">
-                            <li class="fa fa-wrench">
-                                <h3>Integer ultrices</h3>
-                                <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-                            </li>
-                            <li class="fa fa-leaf">
-                                <h3>Aliquam luctus</h3>
-                                <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-                <div class="6u">
-                    <section>
-                        <ul class="style">
-                            <li class="fa fa-cogs">
-                                <h3>Integer ultrices</h3>
-                                <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-                            </li>
-                            <li class="fa fa-road">
-                                <h3>Aliquam luctus</h3>
-                                <span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Main -->
 
 </div>
 
-<!-- Footer -->
-@*<div id="footer" class="wrapper style2">
-    <div class="container">
-        <section>
-            <header class="major">
-                <h2>Напишите нам письмо</h2>
-                <span class="byline">Мы ответим Вам на любой вопрос и зарегистрируем!</span>
-            </header>
-            <form method="post" action="#">
-                <div class="row half">
-                    <div class="12u">
-                        <input class="text" type="text" name="name" id="name" placeholder="Имя" />
-                    </div>
-                </div>
-                <div class="row half">
-                    <div class="12u">
-                        <input class="text" type="text" name="email" id="email" placeholder="Ваша почта" />
-                    </div>
-                </div>
-                <div class="row half">
-                    <div class="12u">
-                        <textarea name="message" id="message" placeholder="Сообщение"></textarea>
-                    </div>
-                </div>
-                <div class="row half">
-                    <div class="12u">
-                        <ul class="actions">
-                            <li>
-                                <input type="submit" value="Отправить сообщение" class="button alt" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </form>
-        </section>
-    </div>
-</div>*@
-<!-- /Footer -->
-<!-- Copyright -->
 <div id="copyright">
     <div class="container">
         <span class="copyright">Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)</span>
@@ -247,6 +162,4 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
-        
-    
 </script>
