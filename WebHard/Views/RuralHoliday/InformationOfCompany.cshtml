@@ -4,5 +4,77 @@
     Layout = "_LayoutVisiting";
 }
 
-<h1>InformationOfCompany</h1>
 
+<div class="wrapper style1">
+
+    <div id="header" class="skel-panels-fixed">
+        <div id="logo">
+            <h1><a asp-controller="RuralHoliday" asp-action="Index">Здоровый отдых</a></h1>
+            <span class="tag">by X Банк</span>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a asp-controller="RuralHoliday" asp-action="Index">На главную страницу</a></li>
+
+                <li><a asp-controller="RuralHoliday" asp-action="Contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="page" class="container">
+        <section>
+            <header class="major">
+                <h2>О нашей компании "Здоровый отдых"</h2>
+                <span class="byline">Наша компания основана в 2020 году баком X Банк</span>
+                <p>Дорогие посетители добро пожадывать на наш сайт!</p>
+                <p>Мы хоти вам предложить необходимый отдых в современных рамках города.</p>
+                
+            </header></section>
+    </div>
+</div>
+
+<div id="footer" class="wrapper style2">
+    <div class="container">
+        <section>
+            <header class="major">
+                <h2>Напишите нам письмо</h2>
+                <span class="byline">Мы ответим Вам на любой вопрос и зарегистрируем!</span>
+            </header>
+            <form method="post" action="#">
+                <div class="row half">
+                    <div class="12u">
+                        <input class="text" type="text" name="name" id="name" placeholder="Имя" />
+                    </div>
+                </div>
+                <div class="row half">
+                    <div class="12u">
+                        <input class="text" type="text" name="email" id="email" placeholder="Ваша почта" />
+                    </div>
+                </div>
+                <div class="row half">
+                    <div class="12u">
+                        <textarea name="message" id="message" placeholder="Сообщение"></textarea>
+                    </div>
+                </div>
+                <div class="row half">
+                    <div class="12u">
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Отправить сообщение" class="button alt" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+<div id="copyright">
+    <div class="container">
+        <ul class="icons">
+            <li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+            <li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+            <li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+        </ul>
+    </div>
+</div>

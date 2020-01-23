@@ -47,6 +47,14 @@ namespace WebHard.Controllers
         {
             return View();
         }
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+        public IActionResult InformationOfCompany()
+        {
+            return View();
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
