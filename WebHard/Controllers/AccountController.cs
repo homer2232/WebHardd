@@ -72,7 +72,7 @@ namespace WebHard.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Index", "Cooperative");
                     }
                 }
                 else
