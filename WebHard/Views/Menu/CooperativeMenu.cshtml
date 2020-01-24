@@ -3,12 +3,10 @@
     <span class="menu"> <img src="~/Content/images/cooperativeImg/icon.png" alt="" /></span>
     <ul class="res">
         <li><a class="active">@Html.ActionLink("Главная страница", "Index", "Cooperative")</a></li>
-        <li><a href="services.html">Новичкам</a></li>
+        <li><a href="services.html">Новым сотрудникам</a></li>
         <li><a href="services.html">Электронная библиотека</a></li>
-        <li><a>@Html.ActionLink("Кадровый раздел", "Manpower", "Cooperative")</a></li>
-        <li><a href="services.html">test</a></li>
-        <li><a href="project.html">test</a></li>
-        <li><a href="contact.html">test</a></li>
+        @if (User.IsInRole("admin"))
+        {<li><a>Административная страница</a></li>}
     </ul>
     <script type="text/javascript">
         $("span.menu").click(function () {

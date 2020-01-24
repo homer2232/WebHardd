@@ -1,26 +1,56 @@
 ﻿@model IEnumerable<WebHard.Models.User>
 @{
     ViewBag.Title = "Список пользователей";
+    Layout = "_LayoutCooperative";
 }
 
-<a asp-action="Create">Добавить пользователя</a>
+    <div class="mother-grid" style="padding-bottom: 1000px">
+        <div class="container">
+            <div class="temp-padd" style="padding:100px 0 50px 0;">
+                <div class="top-strip">
+                    <div class="address">
+                        <ul>
+                            <li><a href="#"><span class="link"> </span>www.sitename.com</a></li>
+                            <li><a href="mailto:example@email.com"><span class="mes"> </span>info@sitename.com</a></li>
+                            <li><span class="ph"> </span>8888 8888</li>
+                        </ul>
+                    </div>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"> <span class="w-f"> </span></a></li>
+                            <li><a href="#"> <span class="w-tw"> </span></a></li>
+                            <li><a href="#"> <span class="w-in"> </span></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
 
-<table class="table">
-    <tr><th>Email</th><th>Год</th><th></th></tr>
-    @foreach (var user in Model)
-    {
-        <tr>
-            <td>@user.Email</td>
-            <td>@user.Year</td>
-            <td>
-                <form asp-action="Delete" asp-route-id="@user.Id" method="post">
-                    <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@user.Id">Изменить</a>
-                    <a class="btn btn-sm btn-primary" asp-action="ChangePassword" asp-route-id="@user.Id">Сменить пароль</a>
-                    <button type="submit" class="btn btn-sm btn-danger">
-                        Удалить
-                    </button>
-                </form>
-            </td>
-        </tr>
-    }
-</table>
+
+
+                <a style="padding-left:20px" asp-action="Create">Добавить пользователя</a>
+
+                <table style="padding-left:20px" class="table">
+                    <tr><th>Email</th><th>Год</th><th></th></tr>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.Email</td>
+                            <td>@user.Year</td>
+                            <td>
+                                <form asp-action="Delete" asp-route-id="@user.Id" method="post">
+                                    <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@user.Id">Изменить</a>
+                                    <a class="btn btn-sm btn-primary" asp-action="ChangePassword" asp-route-id="@user.Id">Сменить пароль</a>
+                                    <button type="submit" class="btn btn-sm btn-danger">
+                                        Удалить
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </table>
+
+
+
+            </div>
+        </div>
+    </div>
