@@ -24,26 +24,28 @@
                                     <input style="font-size:80%;" type="submit" value="Выход" />
                                 </form>
                             </li>
+
+                            <li><a>@Html.ActionLink("Кооперативный сайт", "Index", "Cooperative")</a></li>
                         }
                         else
                         {
                             <li>
-                                <a asp-controller="Account" asp-action="Login">Вход</a>
-                                <a asp-controller="Account" asp-action="Register">Регистрация</a>
+                                <a asp-controller="Account" asp-action="Login">Вход для сотрудников компании</a>
+                                @*<a asp-controller="Account" asp-action="Register">Регистрация</a>*@
                             </li>
                         }
 
                         <li><a asp-controller="RuralHoliday" asp-action="Contacts">Контакты</a></li>
-                        <li><a>@Html.ActionLink("Кооперативный сайт", "Index", "Cooperative")</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <!-- Banner -->
             <div id="banner" class="container">
-                <section>
-                    <p>Это сайт, <strong>Сельский туризм</strong></p>
+                <section style="color: white">
+                    <p>Приветствуем Вас на сайте нашей компании сельского туризма <strong>"Здоровый отдых"</strong></p>
+                    <p>Для просмотра информации о нашей компании можете здесь:</p>
                     <a class="button medium" asp-controller="RuralHoliday" asp-action="InformationOfCompany">Просмотреть</a>
+                    <p>А так же ознакомьтесь с нашими услугами</p>
                 </section>
             </div>
 
@@ -54,21 +56,21 @@
                         <section class="4u">
                             <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic01.jpg" alt=""></a>
                             <div class="box">
-                                <p>Текст</p>
+                                <p>Избы, пруд, места для жилья и отдыха!</p>
                                 <a class="button" asp-controller="RuralHoliday" asp-action="RuralHolidayOne">Просмотреть</a>
                             </div>
                         </section>
                         <section class="4u">
                             <a href="#" class="image featured"><img height="244" src="~/Content/images/visitingImg/pic02.jpg" alt=""></a>
                             <div class="box">
-                                <p>Текст</p>
+                                <p>У нас уникальная возможность заняться кузнечным и декоративным делом!</p>
                                 <a asp-controller="RuralHoliday" asp-action="RuralHolidayTwo" class="button">Просмотреть</a>
                             </div>
                         </section>
                         <section class="4u">
                             <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic03.jpg" alt=""></a>
                             <div class="box">
-                                <p>Текст</p>
+                                <p>Баня поможет вам расслабить тело и укрепить дух! А коптильная наполнена изысканным деликатесом!</p>
                                 <a asp-controller="RuralHoliday" asp-action="RuralHolidayThree" class="button">Просмотреть</a>
                             </div>
                         </section>
@@ -77,21 +79,21 @@
                         <section class="4u">
                             <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic04.jpg" alt=""></a>
                             <div class="box">
-                                <p>Текст</p>
+                                <p>Посетите наш музей посвященный древней Руси!</p>
                                 <a asp-controller="RuralHoliday" asp-action="RuralHolidayFour" class="button">Просмотреть</a>
                             </div>
                         </section>
                         <section class="4u">
                             <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic05.jpg" alt=""></a>
                             <div class="box">
-                                <p>Текст</p>
+                                <p>Приглашаем на празднование, посвященное 23 февраля! Будут организованы стрельбища и многое другое!</p>
                                 <a asp-controller="RuralHoliday" asp-action="RuralHolidayFive" class="button">Просмотреть</a>
                             </div>
                         </section>
                         <section class="4u">
                             <a href="#" class="image featured"><img src="~/Content/images/visitingImg/pic06.jpg" alt=""></a>
                             <div class="box">
-                                <p>Текст</p>
+                                <p>Зоопарк с чудными зверушками!</p>
                                 <a asp-controller="RuralHoliday" asp-action="RuralHolidaySix" class="button">Просмотреть</a>
                             </div>
                         </section>
@@ -103,17 +105,16 @@
                 <div class="container">
                     <div class="row">
 
-                        <!-- Content -->
                         <div class="6u">
                             <section>
                                 <ul class="style">
                                     <li class="fa fa-wrench">
-                                        <h3>Инфо</h3>
-                                        <span>Текст</span>
+                                        <h3>Персонал</h3>
+                                        <span>В нашей компании работают наилучшие профессионалы</span>
                                     </li>
                                     <li class="fa fa-leaf">
-                                        <h3>Адрес</h3>
-                                        <span>Текст</span>
+                                        <h3>Экологичность</h3>
+                                        <span>Чистая природа даст вам все необходимое</span>
                                     </li>
                                 </ul>
                             </section>
@@ -122,12 +123,12 @@
                             <section>
                                 <ul class="style">
                                     <li class="fa fa-cogs">
-                                        <h3>Инфо</h3>
-                                        <span>Текст</span>
+                                        <h3>Современность</h3>
+                                        <span>Современный и технологичный подход к природе и людям</span>
                                     </li>
                                     <li class="fa fa-road">
-                                        <h3>Инфо</h3>
-                                        <span>Текст</span>
+                                        <h3>Расположение</h3>
+                                        <span>Наша компания находится 300 км от МКАД</span>
                                     </li>
                                 </ul>
                             </section>
