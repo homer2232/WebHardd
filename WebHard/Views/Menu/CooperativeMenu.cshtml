@@ -6,7 +6,7 @@
         <li><a href="services.html">Новым сотрудникам</a></li>
         <li><a href="services.html">Электронная библиотека</a></li>
         @if (User.IsInRole("admin"))
-        {<li><a>Административная страница</a></li>}
+        {<li><a asp-controller="Cooperative" asp-action="AdminPage" >Административная страница</a></li>}
     </ul>
     <script type="text/javascript">
         $("span.menu").click(function () {

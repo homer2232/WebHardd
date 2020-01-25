@@ -91,5 +91,10 @@ namespace WebHard.Controllers
                 return View();
             }
         }
+
+        public ActionResult AdminPage() 
+        {
+            return View();
+        }
     }
 }

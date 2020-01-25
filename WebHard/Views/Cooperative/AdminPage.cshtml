@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Административная страница";
+    Layout = "_LayoutCooperative";
+}
+
+    <div class="mother-grid" style="padding-bottom: 1000px">
+        <div class="container">
+            <div class="temp-padd">
+                <div class="top-strip">
+                    <div class="address">
+                        <ul>
+                            <li><a href="#"><span class="link"> </span>www.sitename.com</a></li>
+                            <li><a href="mailto:example@email.com"><span class="mes"> </span>info@sitename.com</a></li>
+                            <li><span class="ph"> </span>+7 777 77 77</li>
+                        </ul>
+                    </div>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"> <span class="w-f"> </span></a></li>
+                            <li><a href="#"> <span class="w-tw"> </span></a></li>
+                            <li><a href="#"> <span class="w-in"> </span></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="title-main">
+                    <a><h1>Test</h1></a>
+
+                </div>
+                <div class="header">
+                    @Html.Partial("~/Views/Menu/CooperativeMenu.cshtml")
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="nuncdig" style="padding-bottom:100px">
+
+
+                    <span style="padding-bottom: 15px;"><a asp-controller="Users" asp-action="Index">Пользователи</a></span><br />
+
+                    <a asp-controller="Roles" asp-action="Index">Управление ролями</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>

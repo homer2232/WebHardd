@@ -5,7 +5,7 @@
 }
     <div class="mother-grid" style="padding-bottom: 1000px">
         <div class="container">
-            <div class="temp-padd" style="padding:100px 0 50px 0;">
+            <div class="temp-padd" style="padding:100px 20px 50px 20px;">
                 <div class="top-strip">
                     <div class="address">
                         <ul>
@@ -23,7 +23,10 @@
                     </div>
                     <div class="clearfix"> </div>
                 </div>
-
+                <div class="header">
+                    @Html.Partial("~/Views/Menu/CooperativeMenu.cshtml")
+                    <div class="clearfix"> </div>
+                </div>
 
 
                 <form style="padding-left:20px" asp-action="Edit" asp-controller="Users">
