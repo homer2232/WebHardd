@@ -96,5 +96,16 @@ namespace WebHard.Controllers
         {
             return View();
         }
+
+        public ActionResult ForNewEmployee()
+        {
+            return View();
+        }
+        
+        public ActionResult DigitalLibrary()
+        {
+            return View();
+        }
+
     }
 }

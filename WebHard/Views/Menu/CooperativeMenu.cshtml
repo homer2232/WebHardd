@@ -3,8 +3,8 @@
     <span class="menu"> <img src="~/Content/images/cooperativeImg/icon.png" alt="" /></span>
     <ul class="res">
         <li><a class="active">@Html.ActionLink("Главная страница", "Index", "Cooperative")</a></li>
-        <li><a href="services.html">Новым сотрудникам</a></li>
-        <li><a href="services.html">Электронная библиотека</a></li>
+        <li><a href="services.html">@Html.ActionLink("Новым сотрудникам", "ForNewEmployee", "Cooperative")</a></li>
+        <li><a href="services.html">@Html.ActionLink("Электронная библиотека", "DigitalLibrary", "Cooperative")</a></li>
         @if (User.IsInRole("admin"))
         {<li><a asp-controller="Cooperative" asp-action="AdminPage" >Административная страница</a></li>}
     </ul>
