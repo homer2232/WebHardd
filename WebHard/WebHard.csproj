@@ -33,6 +33,7 @@
     <Folder Include="wwwroot\Content\images\visitingImg\zoo\" />
     <Folder Include="wwwroot\Content\images\visitingImg\holidays\" />
     <Folder Include="wwwroot\Content\images\visitingImg\hut\" />
+    <Folder Include="wwwroot\Content\Books\" />
     <Folder Include="wwwroot\css\VisitingCss\" />
     <Folder Include="wwwroot\css\CooperativeCss\" />
     <Folder Include="wwwroot\js\CooperativeJs\" />

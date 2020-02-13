@@ -1,7 +1,51 @@
-﻿
-@{
-    ViewData["Title"] = "Library";
+﻿@{
+    ViewData["Title"] = "Электронная библиотека";
+    Layout = "_LayoutCooperative";
 }
 
-<h1>Library</h1>
+<div class="mother-grid" style="padding-bottom: 1000px">
+    <div class="container">
+        <div class="temp-padd">
+            <div class="top-strip">
+                <div class="address">
+                    <ul>
+                        <li><a href="#"><span class="link"> </span>www.Матвеев.com</a></li>
+                        <li><a href="mailto:example@email.com"><span class="mes"> </span>info@sitename.com</a></li>
+                        <li><span class="ph"> </span>+7 777 77 77</li>
+                    </ul>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"> <span class="w-f"> </span></a></li>
+                        <li><a href="#"> <span class="w-tw"> </span></a></li>
+                        <li><a href="#"> <span class="w-in"> </span></a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="title-main">
+                <a><h1>Электронная библиотека</h1></a>
+                
 
+            </div>
+            <div class="header">
+                @Html.Partial("~/Views/Menu/CooperativeMenu.cshtml")
+                <div class="clearfix"> </div>
+            </div>
+
+            <div class="nuncdig" style="padding: 30px 0 50px 0">
+
+                <a download href="~/Content/Books/selhoz.pdf">Глобальные проекты и субсидии</a><br /><br />
+
+                <a download href="~/Content/Books/metodichka-final.pdf">Сельский туризм как средство развития сельских территорий</a><br /><br />
+
+                <a download href="~/Content/Books/selskiy_turizm.pdf">Сельский туризм: опыт, проблемы, перспективы развития в России</a><br /><br />
+
+                <a download href="~/Content/Books/tkodeksrf.pdf">Трудовой кодекс РФ</a><br /><br />
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
