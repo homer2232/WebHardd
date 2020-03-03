@@ -1,0 +1,126 @@
+@using MVCControlsToolkit.Controls
+@using MVCControlsToolkit.Controls.Validation
+@using WebMvc.Helpers
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.AnticacheContent("~/Content/android-icon-36x36.png")" rel="shortcut icon" />	
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <!-- Bootstrap CSS CDN -->    
+    <link href="@Url.AnticacheContent("~/Content/bootstrap4-iso.min.css")" rel="stylesheet" type="text/css" />
+    <!-- Our Custom CSS -->       
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"/-->    
+    
+    <link href="@Url.AnticacheContent("~/Content/jquery-ui-1.12.0/Themes/Smoothness/jquery-ui.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.AnticacheContent("~/Content/jquery-ui-1.12.0/Themes/Smoothness/jquery-ui-1.12.0-smoothness-iso.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.AnticacheContent("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.AnticacheContent("~/Content/Site-iso.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.AnticacheContent("~/Content/fileuploader.css")" rel="stylesheet" type="text/css" />            
+    <link href="@Url.AnticacheContent("~/Content/Loader.css")" rel="stylesheet" type="text/css" />    
+    <link href="@Url.AnticacheContent("~/Scripts/Pickaday/pikaday.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.AnticacheContent("~/Scripts/qtip/jquery.qtip.min.css")" rel="stylesheet" type="text/css" />
+        
+    <link rel="stylesheet" href="@Url.AnticacheContent("~/Content/new-design/css/menu-frame.css")" type="text/css"/>
+    <link rel="stylesheet" href="@Url.AnticacheContent("~/Content/new-design/css/webor-add.css")" type="text/css"/>
+    <link rel="stylesheet" href="@Url.AnticacheContent("~/Content/Css/filter-float.css")" type="text/css"/>
+    
+    <script src="@Url.AnticacheContent("~/Scripts/jquery-3.1.0.min.js")" type="text/javascript"></script>
+
+    <!--script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!--script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script-->
+
+    <script src="@Url.AnticacheContent("~/Scripts/Bootstrap/bs-dropdown.min.js")" type="text/javascript"></script>    
+    <script src="@Url.AnticacheContent("~/Scripts/jquery-ui-1.12.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.ui.datepicker-ru.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/DepartmentTree.js")" type="text/javascript"></script>
+
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.maskedinput.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.global.js")" type="text/javascript"></script>
+
+    <script src="@Url.AnticacheContent("~/Scripts/JQueryControlsManagement.js")" type="text/javascript"></script>
+        
+    <script src="@Url.AnticacheContent("~/Scripts/jquery-migrate-3.0.0.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.custom.deprecated.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/qtip/jquery.qtip.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+    
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.validator.decimalFix.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/localization/messages_ru.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.upload-1.0.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/json2.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.bgiframe.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/jquery.form.js")" type="text/javascript"></script>
+        
+    <script src="@Url.AnticacheContent("~/Scripts/CommonJsHelper.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/Pickaday/moment.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/Pickaday/pikaday.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/FixOnScroll.js")" type="text/javascript"></script>    
+    <script src="@Url.AnticacheContent("~/Scripts/DepartmentSelectorShared.js")" type="text/javascript"></script>
+    
+    <script src="@Url.AnticacheContent("~/Scripts/UserApplications/Base/EmployeesAutoComplete.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/UserApplications/Base/EmployeesAutoCompleteTextBox.js")" type="text/javascript"></script>
+
+    @Html.jQueryGlobalizationScript()
+    @Html.JQueryDatePickerGlobalizationScript(null, Url.Content("~/Scripts/"))    
+
+    <script src="@Url.AnticacheContent("~/Scripts/Loader.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/fileuploader.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/handsontable.full.min.js")" type="text/javascript"></script> 
+    <script src="@Url.AnticacheContent("~/Scripts/UserSettings/UserRosterSettings.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/UserApplications/Utils/FormSubmitter.js")" type="text/javascript"></script>
+
+    @if (IsSectionDefined("AddToHead"))
+    {
+        @RenderSection("AddToHead", required: false)                
+    }    
+</head>
+
+<body id="main">    
+    @Html.Partial("_topNavBar")   
+    @Html.Partial("_sideBar")    
+    <!-- начало Центральная часть -->   
+    <div class="main-wrap">                
+        <div class="page bootstrap-iso">
+            @RenderBody()
+        </div>
+    </div>
+    <div id="footer-wrap" style="width: 100%; bottom: 0; left: 0;" class="new-design">
+        <footer class="footer">
+            <div class="row" style="float: none;">
+                <div class="col-6">
+                    <div class="copyr"> &copy; Webor 2019. Все права защищены.</div>
+                </div> 
+                <div class="col-6 text-right topicons">
+                    <span>Техническая поддержка:</span>                
+                    <a href="mailto:support@ruscount.ru"><img alt="РК" src="/Content/new-design/img/top-ic2.svg" />support@ruscount.ru</a>
+                </div>
+            </div>
+         </footer>
+         <script type="text/javascript">
+             $(window).scroll(function () {
+                 $('#footer-wrap').css({
+                     'left': $(this).scrollLeft()                 
+                 });
+             });
+         </script>
+     </div>
+
+    <!-- конец Центральная часть -->
+    <script src="@Url.AnticacheContent("~/Scripts/jquery-ui-1.12.1.min.js")" type="text/javascript"></script>
+    <script src="@Url.AnticacheContent("~/Scripts/common.js")" type="text/javascript"></script>
+    <div class='cssloader'>
+        <div class='cssloader-bar'>
+          <div class="loading-bar"></div>
+          <div class="loading-bar"></div>
+          <div class="loading-bar"></div>
+          <div class="loading-bar"></div>
+        </div>
+    </div>
+</body>
+</html>
